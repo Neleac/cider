@@ -8,7 +8,7 @@ from pydataformat.loadData import LoadData
 from pyciderevalcap.eval import CIDErEvalCap as ciderEval
 
 # load the configuration file
-config = json.loads(open('params.json', 'r').read())
+config = json.loads(open('params_vatex.json', 'r').read())
 
 pathToData = config['pathToData']
 refName = config['refName']
